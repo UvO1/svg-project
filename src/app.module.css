@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'GHEA Grapalat';
+	src: url('../src/assets/fonts/gheagrapalat.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+.area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px;
+    background-color: #ffffff;
+  }
+  .diagram{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 600px;
+  }
+    .section {
+      fill: none;
+      stroke-width: 50;
+    }
+    .section:nth-child(1) {
+      stroke: #FF69B4;
+      stroke-dasharray: 55 3070;
+      stroke-dashoffset: -105;
+    }
+    .section:nth-child(2) {
+      stroke: #97BB31;
+      stroke-dasharray: 63 3070;
+      stroke-dashoffset: -42;
+    }
+    .section:nth-child(3) {
+      stroke: #D9D9D9;
+      stroke-dasharray: 42 3070;
+      stroke-dashoffset: 0;
+    }
+    .path{
+      opacity: 0;
+      fill: #000000;
+    }
+  
+    .legend{
+      display: flex;
+      flex-direction: column;
+    }

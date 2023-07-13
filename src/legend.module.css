@@ -1,0 +1,21 @@
+.line{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	opacity: 0.6;
+	margin-top: 20px;
+}
+
+.title{
+    font-family: 'GHEA Grapalat';
+    color: #000000;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-left: 13px;
+
+}
+.square{
+	width: 14px;
+	height: 14px;
+}
